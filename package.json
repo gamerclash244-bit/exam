@@ -1,0 +1,17 @@
+{
+  "name": "plus-one-exams",
+  "version": "2.0.0",
+  "description": "Exam maker and conductor for Plus One. Node.js + MongoDB.",
+  "main": "server/index.js",
+  "scripts": {
+    "start": "node server/index.js",
+    "dev": "node --env-file=.env server/index.js",
+    "test": "node test/smoke.js"
+  },
+  "engines": { "node": ">=20" },
+  "dependencies": {
+    "express": "^4.21.0",
+    "express-rate-limit": "^7.4.0",
+    "mongodb": "^6.9.0"
+  }
+}
